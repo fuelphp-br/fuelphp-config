@@ -59,14 +59,14 @@ Adicionar
 Copiar packages/auth/config/auth.php para app/config/
 
 Deixar assim:
-
+```php
 return array(
     'driver'                 => 'Ormauth',
     'verify_multiple_logins' => false,
     'salt'                   => '181818nsnsns3939393',
     'iterations'             => 10000,
 );
-
+```
 ### Configurar rotas
 
 fuel/app/config/routes.php
