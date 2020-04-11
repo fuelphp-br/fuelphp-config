@@ -13,8 +13,13 @@ curl -L https://get.fuelphp.com/oil | sh
 Com o comando acima agora temos no path o comando oil que executa uma grande quantidade de comandos para o fuelPHP, mas ainda com recursos mais úteis como o scaffold e o admin.
 
 ## Criar projeto
-oil create pasta
-cd pasta
+oil create blog
+
+ou
+
+oil create apps/blog
+
+cd apps/blog
 
 ## Podemos criar aplicativos também usando o composer:
 https://fuelphp.com/docs/installation/instructions.html
